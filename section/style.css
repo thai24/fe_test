@@ -1,0 +1,98 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* // cài đặt mặc định  */
+}
+
+body{
+    width: 1440px;
+    margin: auto;
+    font-weight: 400;
+    font-family: 'Lora', serif;
+    /* //cài đặt thuộc tính  */
+}
+
+p{
+    font-size: 14px;;
+    line-height: 22px;
+    color: #1F1F1F;
+}
+
+
+/* // section One  */
+.sectionOne{
+    width: 810px;
+    text-align: center;
+    margin: auto;
+}
+.sectionOne_title{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 54px;
+}
+.sectionOne_img{
+    display: flex;
+    gap: 23px;
+    padding:49px 0;
+}
+.sectionOne_img img{
+    width: 379px;
+    height: 617px;
+    object-fit: cover;
+    border-radius: 16px;
+    margin-left: 10px;
+}
+
+/* // section 2  */
+.sectionTwo{
+    width: 1376px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.sectionTwo_block{
+    height: 800px;
+    display: flex; 
+    gap:8px;
+    margin-bottom: 8px;
+}
+.sectionTwo_block img{
+    width: 684px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 24px;
+}
+.sectionTwo_block_content{
+    height: 100%;
+    width: 684px;
+    background-color: #F4F0EA;
+    border-radius: 24px;
+    position: relative;
+}
+.sectionTwo_block_content div{
+    position: absolute;
+    bottom: 0;
+    padding: 48px;
+    /* đặt nội dung xuống bottom thẻ .sectionTwo_block_content  */
+}
+.sectionTwo_block_title{
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 74px;
+    text-align: left;
+
+}
+.sectionTwo_block_desc{
+    margin-top: 22px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+.sectionTwo_block_p{
+    margin-top: 37px;
+    margin-bottom: 23px;
+}
